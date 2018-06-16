@@ -149,12 +149,12 @@ gulp.task('bump-version-comments', function () {
 gulp.task('enable-production', function () {
   return es.concat(
     gulp.src('app/**/*.html')
-      .pipe($.replace(/PRODUCTION_ONLY_BEGIN/g, 'PRODUCTION_ONLY_BEGIN-->'))
-      .pipe($.replace(/PRODUCTION_ONLY_END/, '<!--PRODUCTION_ONLY_END'))
+      .pipe($.replace(/PRODUCTION_ONLY_BEGIN(-->)*/g, 'PRODUCTION_ONLY_BEGIN-->'))
+      .pipe($.replace(/(<!--)*PRODUCTION_ONLY_END/, ' <!--PRODUCTION_ONLY_END'))
       .pipe(gulp.dest('app')),
     gulp.src('app/**/*.js')
-      .pipe($.replace(/PRODUCTION_ONLY_BEGIN(\*\/)?/g, 'PRODUCTION_ONLY_BEGIN*/'))
-      .pipe($.replace(/(\/\*)?PRODUCTION_ONLY_END/g, '/*PRODUCTION_ONLY_END'))
+      .pipe($.replace(/PRODUCTION_ONLY_BEGIN(\*\/)*/g, 'PRODUCTION_ONLY_BEGIN*/'))
+      .pipe($.replace(/(\/\*)*PRODUCTION_ONLY_END/g, '/*PRODUCTION_ONLY_END'))
       .pipe(gulp.dest('app'))
   )
 })

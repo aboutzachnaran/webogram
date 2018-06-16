@@ -1,7 +1,7 @@
 {
-  "name": "Telegram",
-  "description": "Telegram Web App.\nMore info & source code here: https://github.com/zhukov/webogram",
-  "short_name": "Telegram",
+  "name": "Telegreat",
+  "description": "中文的 Telegreat Web 網頁版\n請至 https://telegre.at/ 以取得更多資訊",
+  "short_name": "Telegreat",
   "display": "standalone",
   "theme_color": "#497495",
   "gcm_sender_id": "122867383838",
@@ -58,12 +58,12 @@
   "related_applications": [
     {
       "platform": "play",
-      "id": "org.telegram.messenger",
-      "url": "https://telegram.org/dl/android?ref=webmanifest"
+      "id": "taipei.sean.telegram.messenger.beta",
+      "url": "https://telegre.at/"
     },
     {
       "platform": "itunes",
-      "url": "https://telegram.org/dl/ios?ref=webmanifest"
+      "url": "https://tlgr.tw/ios.php"
     }
   ]
 }

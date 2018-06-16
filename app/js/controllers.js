@@ -553,6 +553,9 @@ angular.module('myApp.controllers', ['myApp.i18n'])
           url += '/br'
           break
       }
+      if (Config.I18n.locale.substr(0, 2) == 'zh') {
+        url = 'https://telegram.how/faq';
+      }
       var popup = window.open(url, '_blank')
       try {
         popup.opener = null;

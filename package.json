@@ -1,12 +1,12 @@
 {
-  "name": "Telegram",
-  "description": "Telegram Web App.\nMore info & source code here: https://github.com/zhukov/webogram",
+  "name": "Telegreat",
+  "description": "中文的 Telegreat Web 網頁版\n請至 https://telegre.at/ 以取得更多資訊",
   "version": "0.7.0",
   "main": "app/index.html",
   "single-instance": true,
   "dom_storage_quota": 40,
   "window": {
-    "title": "Telegram",
+    "title": "Telegreat",
     "icon": "app/img/icons/icon128.png",
     "toolbar": false,
     "frame": true,
@@ -24,15 +24,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zhukov/webogram.git"
+    "url": "https://github.com/Sea-n/webogram.git"
   },
-  "author": "zhukov",
+  "author": "Sea-n",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/zhukov/webogram/issues"
+    "url": "https://github.com/Sea-n/webogram/issues"
   },
   "locales": [
     "en-us",
+    "zh-tw",
+    "zh-cn",
+    "zh-hk",
     "es-es",
     "de-de",
     "it-it",
@@ -40,7 +43,7 @@
     "nl-nl",
     "pt-br"
   ],
-  "homepage": "http://zhukov.github.io/webogram",
+  "homepage": "https://web.telegre.at/",
   "devDependencies": {
     "del": "^1.2.0",
     "event-stream": "^3.1.0",

@@ -18,10 +18,10 @@ Config = window.Config || {}
 */
 
 Config.App = {
-  id: 2496,
-  hash: '8da85b0d5bfe62527e5b244c209159c3',
+  id: 45735,
+  hash: '6685194f787f91058cbc0fe77b4eb139',
   version: '0.7.0',
-  domains: ['web.telegram.org', 'zhukov.github.io']
+  domains: ['web.telegre.at', 'web.tlgr.tw']
 }
 
 Config.Modes = {
@@ -56,9 +56,12 @@ Config.Navigator = {
 // Touch detect: https://github.com/Modernizr/Modernizr/blob/master/feature-detects/touchevents.js
 
 Config.I18n = {
-  locale: 'en-us',
+  locale: 'zh-tw',
   supported: [
     'en-us'
+    , 'zh-tw'
+    , 'zh-cn'
+    , 'zh-hk'
     , 'es-es'
     , 'de-de'
     , 'it-it'
@@ -68,6 +71,9 @@ Config.I18n = {
   ], // To be copied to package.json
   languages: {
     'en-us': 'English',
+    'zh-tw': '正體中文 (台灣)',
+    'zh-cn': '簡體中文',
+    'zh-hk': '繁體中文 (香港)',
     'de-de': 'Deutsch',
     'es-es': 'Español',
     'it-it': 'Italiano',
@@ -77,6 +83,7 @@ Config.I18n = {
   },
   aliases: {
     'en': 'en-us',
+    'zh': 'zh-tw',
     'de': 'de-de',
     'es': 'es-es',
     'it': 'it-it',

@@ -1,12 +1,12 @@
 {
-  "name": "Telegram",
-  "description": "Telegram Web App.\nMore info & source code here: https://github.com/zhukov/webogram",
+  "name": "Telegreat",
+  "description": "中文的 Telegreat Web 網頁版\n請至 https://telegre.at/ 以取得更多資訊",
   "version": "0.7.0",
   "type": "privileged",
   "launch_path": "/index.html",
   "developer": {
-    "name": "Igor Zhukov",
-    "url": "https://github.com/zhukov"
+    "name": "Sean",
+    "url": "https://telegre.at/"
   },
   "installs_allowed_from": [
     "*"

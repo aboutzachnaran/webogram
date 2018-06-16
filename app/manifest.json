@@ -1,8 +1,8 @@
 {
-  "name": "Telegram",
-  "description": "Telegram Web App.\nMore info & source code here: https://github.com/zhukov/webogram",
+  "name": "Telegreat",
+  "description": "中文的 Telegreat Web 網頁版\n請至 https://telegre.at/ 以取得更多資訊",
   "version": "0.7.0",
-  "short_name": "Telegram",
+  "short_name": "Telegreat",
   "manifest_version": 2,
   "app": {
     "background": {
